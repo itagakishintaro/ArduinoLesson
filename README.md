@@ -5,7 +5,9 @@ Arduinoの練習
 ## 目次
 
 [1. JavaScriptでLチカ: led.js](#1)
+
 [2. CdSで光センサーの値を取得: cds.js](#2)
+
 [3. センサーの値をチャートにする: sensor-charts-server.js, public/sensor-charts.html, public/sensor-charts.js](#3)
 
 ## 準備
