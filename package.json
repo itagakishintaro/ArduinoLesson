@@ -1,0 +1,11 @@
+{
+	"name": "Arduino",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies":{
+		"johnny-five": "*",
+		"serialport": "*",
+		"express": "*",
+		"socket.io": "*"
+	}
+}
