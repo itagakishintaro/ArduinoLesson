@@ -2,11 +2,11 @@
 
 Arduinoの練習
 
-## 構成
+## 目次
 
-1. JavaScriptでLチカ: led.js
-2. CdSで光センサーの値を取得: cds.js
-3. センサーの値をチャートにする: sensor-charts-server.js, public/sensor-charts.html, public/sensor-charts.js
+[1. JavaScriptでLチカ: led.js](#1)
+[2. CdSで光センサーの値を取得: cds.js](#2)
+[3. センサーの値をチャートにする: sensor-charts-server.js, public/sensor-charts.html, public/sensor-charts.js](#3)
 
 ## 準備
 
@@ -16,6 +16,7 @@ nodeの各種モジュールをインストール
 npm install
 ```
 
+<a name="1"></a>
 ## JavaScriptでLチカ
 
 ### 回路
@@ -28,6 +29,7 @@ http://ics-web.jp/lab/archives/4758
 node led.js
 ```
 
+<a name="2"></a>
 ## CdSで光センサーの値を取得
 
 参考：http://ics-web.jp/lab/archives/5538
@@ -52,6 +54,7 @@ CdS - A0
 node cds.js
 ```
 
+<a name="3"></a>
 ## センサーの値をチャートにする
 
 Arduinoまわりは「CdSで光センサーの値を取得」と同じ。
